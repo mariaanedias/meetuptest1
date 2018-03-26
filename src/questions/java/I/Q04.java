@@ -8,6 +8,7 @@ public class Q04 {
 			a = name.length();
 			a++;
 		} catch (RuntimeException e) {
+			e.printStackTrace();
 			++a;
 		}
 		System.out.println(a);

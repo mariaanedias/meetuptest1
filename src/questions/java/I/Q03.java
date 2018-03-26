@@ -7,7 +7,7 @@ public class Q03 {
 	    String[][] names = {{"Andre", "Mike"}, null, {"Pedro"}};
 	    System.out.println(names[2][1].substring(0, 2));
 	}
-	catch (/* INSERT CODE HERE */) {
+	catch (ArrayIndexOutOfBoundsException a) {
 	    System.out.println(1);
 	}
 	
